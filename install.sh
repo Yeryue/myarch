@@ -38,8 +38,11 @@ sudo pacman -S archlinuxcn-keyring
 sudo pacman -S pacman-contrib
 sudo systemctl enable paccache.timer
 
+#vim插件,在命令行输入PlugInstall
 sudo cp .vimrc ~/.vimrc
-
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+    
 #aur库
 sudo pacman -S base-devel
 sudo pacman -S yay
