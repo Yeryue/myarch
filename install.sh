@@ -52,8 +52,8 @@ sudo pacman -S arm-none-eabi-gcc arm-none-eabi-binutils mpfr gmp arm-none-eabi-n
 sudo pacman -S qbittorrent localsend
 sudo pacman -S wget less
 cd
-git clone --branch master --depth 1 https://gh-proxy.org/https://github.com/nelvko/clash-for-linux-install.git \
-cd clash-for-linux-install \
+git clone --branch master --depth 1 https://gh-proxy.org/https://github.com/nelvko/clash-for-linux-install.git
+cd clash-for-linux-install
 bash install.sh
 cd myarch
 #https://github.com/nelvko/clash-for-linux-install
