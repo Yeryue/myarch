@@ -72,3 +72,4 @@ git clone --depth=1 https://gitee.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-~/
 sudo pacman -S okular 
 cd
 hyprpaper --config config/hypr/hyprpaper.conf
+reboot
