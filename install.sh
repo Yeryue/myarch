@@ -97,8 +97,8 @@ wget https://gitee.com/Devkings/oh_my_zsh_install/raw/master/install.sh -O - | s
 git clone --depth=1 https://gitee.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 #手动在.zshrc上更改  ZSH_THEME="powerlevel10k/powerlevel10k"
 
-#看文档照片 解压工具
-sudo pacman -S okular ark
+#看文档照片 解压工具 查找工具
+sudo pacman -S okular ark fd
 
 #设置壁纸
 cd
