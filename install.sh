@@ -69,6 +69,6 @@ cp .zshrc ~/.zshrc
 sudo ln -s /usr/share/zsh/plugins/zsh-syntax-highlighting /usr/share/oh-my-zsh/custom/plugins/
 sudo ln -s /usr/share/zsh/plugins/zsh-autosuggestions /usr/share/oh-my-zsh/custom/plugins/
 git clone --depth=1 https://gitee.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/themes/powerlevel10k
-sudo pacman -U wechat-4.1.0.13-1-x86_64.pkg.tar.zst
-sudo pacman -U baidunetdisk-4.17.7-1-x86_64.pkg.tar.zst
 sudo pacman -S okular 
+cd
+hyprpaper --config config/hypr/hyprpaper.conf
