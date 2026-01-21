@@ -86,6 +86,8 @@ yay -S visual-studio-code-bin moekoemusic-bin yazi debtap steam stm32cubemx wps-
 sudo pacman -S arm-none-eabi-gcc arm-none-eabi-binutils mpfr gmp arm-none-eabi-newlib 
 #cmake
 sudo pacman -S cmake
+#openocd
+sudo pacman -S openocd telnet
 
 #下载种子 与手机传输文件
 sudo pacman -S qbittorrent localsend
@@ -108,5 +110,8 @@ sudo pacman -S fcitx5 fcitx5-configtool fcitx5-chinese-addons fcitx5-rime
 
 #字体 
 sudo pacman -S noto-fonts-cjk noto-fonts-emoji ttf-fira-code ttf-jetbrains-mono
+
+#后续工作
+sudo chown root /etc
 
 reboot
